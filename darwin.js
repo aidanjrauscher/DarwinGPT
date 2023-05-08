@@ -7,7 +7,7 @@ const configuration = new Configuration({
 });
 const openai = new OpenAIApi(configuration);
 
-let task = "Write a Sci-Fi short story in the style of Shel Silverstein."
+let task = process.env.TASK
 let prompt = task
 let generation = null
 let settings = {
