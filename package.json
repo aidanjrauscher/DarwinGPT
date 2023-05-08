@@ -1,0 +1,17 @@
+{
+  "name": "darwingpt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "darwin.js",
+  "type": "module",
+  "scripts": {
+    "script": "node darwin.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  }
+}
